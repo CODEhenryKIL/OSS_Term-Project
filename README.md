@@ -680,9 +680,10 @@ title = f"{team1_name} - {team2_name} (xG: {team1_xg} - {team2_xg})"
 fig = go.Figure(data=[shot_trace, team1_goal_trace, team2_goal_trace], layout=get_pitch_layout(title))
 fig.show()
 ```
-<p float="center">
-  <img src="img/xg.png" width="50%" />
-</p>
+
+![Example Image](img/xg.png)
+
+<br>
 
 
 #### 7개 대회 슈팅 데이터에 대한 로지스틱 회귀 모델 학습 시각화
