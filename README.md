@@ -451,7 +451,13 @@ plt.show()
 
 * 공격 스퀀스란?: 공을 스틸 당하거나, 패스 미스, 전/후반 종료, 라인 아웃 등의 상황이 일어나지 않고 지속적으로 공격권이 유지되는 시간을 하나의 스퀀스로 봅니다.
   * <span style="color:skyblue">**"4 공격 이벤트 스퀀스 시각화.ipynb"**</span>파일이 실행되면 자동으로 공격 스퀀스를 나눠집니다.
+
+<br>
+
 * 아래 예시 코드와 출력물은 World_Cup의 match_id = 2058017 프랑스 vs 크로아티아 경기의 132 seq_id의 공격 경로 입니다.
+  * 선택한 공격 스퀀스의 공격 경로가 시각화됩니다.
+  * 아래 표를 바탕으로 어떤 선수가 어떤 이벤트를 진행시켰는지 순서에 맞게 정리됩니다.
+     * 이벤트_id 십의자리가 공격 경로 시각화 번호로 사용됩니다.
 
 
 ```python
@@ -472,19 +478,6 @@ visualize_sequence(match_events, first_idx, last_idx)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
