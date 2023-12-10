@@ -80,7 +80,6 @@ Logistic Regression 머신러닝 모델을 사용하여 로지스틱 회귀 분�
 
 * <span style="color:skyblue">**"1 데이터 준비ipynb"**</span> 파일을 통해 refinde_events파일을 준비해주세요.
     * 데이터가 크기가 너무 커 github에는 월드컵 데이터만 업로드 하였습니다. 1 데이터 준비 파일을 통해 다른 대회 데이터를 다운 받을 수 있습니다.
-    * <small><small> data_utils.py Reference </small></small>
 
 
 
